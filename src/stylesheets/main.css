@@ -30,8 +30,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   /*  padding-top: 56.333333%;*/
-  /* maybe it needs some blur effect but now it's 0 */
-  filter: blur(0px);
+  filter: contrast(120%);
 }
 
 .purple-bg {
@@ -93,4 +92,8 @@ body {
 
 .padding-b {
   padding-bottom: 20px;
+}
+
+.btn {
+  transition-duration: .2s;
 }
