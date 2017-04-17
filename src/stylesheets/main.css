@@ -14,9 +14,9 @@ body {
  position: relative;
  top: 50px;
 }
-#section1 {height:500px;color: #fff;}
-#section2 {height:500px;color: #fff;}
-#section3 {height:500px;color: #fff;}
+#section1 {min-height:500px;color: #fff;}
+#section2 {min-height:500px;color: #fff;}
+#section3 {min-height:500px;color: #fff;}
 
 .no-padd {
   padding: 0;
@@ -53,4 +53,44 @@ body {
 
 .content-paddings {
   padding: 50px 20px;
+}
+
+.tusovka-block {
+  overflow: auto;
+  display: table;
+  margin: 0 10%;
+  width: 80%;
+}
+
+.tusovka-block > img {
+  float: right;
+  display: inline;
+  max-height: 100px;
+  max-width: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.tusovka-block > p {
+  width: 100%;
+  padding: 0 20px;
+  display: table-cell; 
+  vertical-align: middle; 
+  font-size: 22px;
+}
+
+.tusovka-left {
+  float: left;
+}
+.tusovka-left > p {
+  text-align: left;
+}
+.tusovka-right {
+  float: right;
+}
+.tusovka-right > p {
+  text-align: right;
+}
+
+.padding-b {
+  padding-bottom: 20px;
 }
