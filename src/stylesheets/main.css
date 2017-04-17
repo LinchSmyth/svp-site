@@ -19,3 +19,24 @@ body {
 #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
 #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
 #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+
+.no-padd {
+  padding: 0;
+}
+
+.main-bg {
+  overflow: auto;
+  height: 100vh;
+  background-image: url(../images/main-bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*  padding-top: 56.333333%;*/
+  /* maybe it needs some blur effect but now it's 0 */
+  filter: blur(0px);
+}
+
+.first-content-wrapper {
+  overflow: auto;
+  background-color: rgb(0, 0, 0, 0.2);
+}
