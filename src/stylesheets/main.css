@@ -164,3 +164,8 @@ body {
 .bottom-padd-20 {
   padding-bottom: 20px;
 }
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgba(255, 255, 255, 0.6);
+}
