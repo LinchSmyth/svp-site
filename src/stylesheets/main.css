@@ -108,6 +108,10 @@ body {
   background-size: cover;
   background-position: center left;
   filter: grayscale(50%) contrast(110%);
+  transition-duration: .2s;
+}
+.picture-section2:hover {
+  box-shadow: 0 8px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .image-p {
@@ -151,4 +155,12 @@ body {
 
 .picture-section2-7 {
   background-image: url(../images/games.jpg)
+}
+
+.top-padd-20 {
+  padding-top: 20px;
+}
+
+.bottom-padd-20 {
+  padding-bottom: 20px;
 }
