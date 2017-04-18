@@ -23,3 +23,6 @@ ul.navbar-nav > li > a:hover {
 ul.navbar-nav > li.active {
   background-color: #9b009b;
 }
+button.navbar-toggle {
+  background-color: rgba(0, 0, 0, 0.2);
+}
