@@ -45,7 +45,7 @@ body {
 
 .main-bg > .first-content-wrapper {
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
   color: #fff;
 }
@@ -98,16 +98,25 @@ body {
   transition-duration: .2s;
 }
 
-.block-section2 {
-    display: flex;
-    flex-wrap: wrap;
+.each-program-block {
+  padding: 15px 30px;
 }
 
 .picture-section2 {
-    width: 300px;
-    height: 400px;
-    margin: 10px 20px;
-	background-size: cover;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center left;
+  filter: grayscale(50%);
+}
+
+.image-p {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 0px 5px 10px;
+  text-shadow: 1px 1px 9px #000;
+  font-weight: 600;
+  text-align: center;
 }
 
 .picture-section2-1 {
@@ -122,12 +131,9 @@ body {
 	background-image: url(../images/after-party.jpg);
 }
 
-.picture-section2-3 {
-	background-image: url(../images/after-party.jpg);
-}
-
 .picture-section2-4 {
-	background-image: url(../images/Le-Revusik.jpg);
+  background-image: url(../images/revo.jpg);
+  background-position: top center;
 }
 
 .picture-section2-5 {
