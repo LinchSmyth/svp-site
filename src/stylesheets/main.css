@@ -118,7 +118,12 @@ body {
   font-weight: 600;
   text-align: center;
 }
-
+.image-p__boss {
+  width: 72px;
+  float: right;
+  margin-right: 4px;
+  transform: rotate(-90deg);
+}
 .picture-section2-1 {
 	background-image: url(../images/mammi2000.png);
 }
