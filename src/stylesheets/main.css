@@ -1,5 +1,5 @@
 body {
-  position: relative; 
+  position: relative;
 }
 .affix {
   top:0;
@@ -72,8 +72,8 @@ body {
 .tusovka-block > p {
   width: 100%;
   padding: 0 20px;
-  display: table-cell; 
-  vertical-align: middle; 
+  display: table-cell;
+  vertical-align: middle;
   font-size: 22px;
 }
 
@@ -96,4 +96,44 @@ body {
 
 .btn {
   transition-duration: .2s;
+}
+
+.block-section2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.picture-section2 {
+    width: 300px;
+    height: 400px;
+    margin: 10px 20px;
+	background-size: cover;
+}
+
+.picture-section2-1 {
+	background-image: url(../images/mammi2000.png);
+}
+
+.picture-section2-2 {
+	background-image: url(../images/hookah.jpg);
+}
+
+.picture-section2-3 {
+	background-image: url(../images/after-party.jpg);
+}
+
+.picture-section2-3 {
+	background-image: url(../images/after-party.jpg);
+}
+
+.picture-section2-4 {
+	background-image: url(../images/Le-Revusik.jpg);
+}
+
+.picture-section2-5 {
+	background-image: url(../images/people.jpg);
+}
+
+.picture-section2-6 {
+	background-image: url(../images/vomit.jpg);
 }
