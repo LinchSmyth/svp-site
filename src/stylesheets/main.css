@@ -170,6 +170,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-paddings {
+  padding: 50px 20px 10px;
+}
+
 a.footer-link {
   color: rgba(255, 255, 255, 0.6);
   text-transform: none;
@@ -183,4 +187,12 @@ a.footer-link:hover {
 
 a.footer-link > i {
   font-size: 15px;
+}
+
+.first-footer-row {
+  margin-bottom: 20px;
+}
+
+.creators {
+  margin: 0 0 5px;
 }
