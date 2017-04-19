@@ -16,7 +16,9 @@ ul.navbar-nav > li > a {
   transition-duration: .1s;
   color: #fff;
 }
-ul.navbar-nav > li > a:hover {
+ul.navbar-nav > li > a:hover, 
+ul.navbar-nav > li > a:focus, 
+ul.navbar-nav > li > a:active {
   color: #fff;
   background-color: #7b037b;
 }
