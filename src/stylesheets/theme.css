@@ -26,3 +26,7 @@ ul.navbar-nav > li.active {
 button.navbar-toggle {
   background-color: rgba(0, 0, 0, 0.2);
 }
+
+.fa-bars {
+  color: #fcfcfc;
+}
