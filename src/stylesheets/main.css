@@ -171,12 +171,16 @@ body {
 }
 
 a.footer-link {
-  color: rgba(255,255,255,0.6)
+  color: rgba(255, 255, 255, 0.6);
   text-transform: none;
   transition-duration: 0.2s;
 }
 
 a.footer-link:hover {
-  text-transform: underline;
+  text-decoration: none;
   color: #fff
+}
+
+a.footer-link > i {
+  font-size: 15px;
 }
