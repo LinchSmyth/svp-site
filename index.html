@@ -24,9 +24,20 @@
 <div class="container-fluid no-padd">
   <div class="main-bg">
     <div class="first-content-wrapper">
-      <div class="container">
-        <div class="col-md-12">
-          
+      <div class="container" style="height: 100%">
+        <div class="col-md-10 col-md-offset-1" style="height: 100%">
+          <div class="achivements col-md-4 col-sm-4 col-xs-12 text-center fade-in">
+            <img src="./src/images/achivement-3.png" alt="">
+            <h4>Одобрено твоей мамкой</h4>
+          </div>
+          <div class="achivements col-md-4 col-sm-4 col-xs-12 text-center">
+            <img src="./src/images/achivement-1.png" alt="">
+            <h4>Самая лучшая вписка 2к16</h4>
+          </div>
+          <div class="achivements col-md-4 col-sm-4 col-xs-12 text-center">
+            <img src="./src/images/achivement-2.png" alt="">
+            <h4>Самая ожидаемая туса 2017</h4>
+          </div>
         </div>
       </div>
     </div>
@@ -92,7 +103,6 @@
         </div>
         <div class="buttons-block text-center">
           <button class="btn btn-lg btn-primary" data-keyboard="true" data-toggle="modal" data-target="#modalWant">Хочу вписаться!</button>
-          <button class="btn btn-lg btn-danger" data-keyboard="true" data-toggle="modal" data-target="#modalWhat">"А что делает эта кнопка?"</button>
         </div>
       </div>
     </div>
@@ -147,6 +157,13 @@
         <div class="row">
           <div class="col-md-12 top-padd-20">
             <h3 class="text-center">...и еще многое многое другое!</h3>
+            <br>
+            <h4 class="text-center">Успей записаться прямо сейчас и получи банку рево в подарок!</h4>
+            <br>
+            <div class="buttons-block text-center">
+              <button class="btn btn-lg btn-success" data-keyboard="true" data-toggle="modal" data-target="#modalGo">Вписаться</button>
+              <button class="btn btn-lg btn-danger" data-keyboard="true" data-toggle="modal" data-target="#modalWhat">"А что делает эта кнопка?"</button>
+            </div>
           </div>
         </div>
       </div>
@@ -249,8 +266,8 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
       </div>
-      <div class="modal-body">
-        <p class="js-randtext-target"></p>
+      <div class="modal-body text-center">
+        <p>Извините, ваш IQ гораздо выше требуемого уровня...</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-success btn-default" data-dismiss="modal">Японил</button>
@@ -271,6 +288,21 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-success btn-default" data-dismiss="modal">Блять, Свеша, заебал</button>
         <button type="button" class="btn btn-danger btn-default" data-dismiss="modal">Ебало оффни</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalGo" tabindex='-1' role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body text-center">
+        <p>Вы не прошли фейс-контроль, да-да, вот настолько вы уродливы... Соболезнуем...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-default" data-dismiss="modal">:(</button>
       </div>
     </div>
   </div>

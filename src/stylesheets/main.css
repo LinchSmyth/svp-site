@@ -233,3 +233,14 @@ a.footer-link > i {
   opacity:1;
   transform:translateX(0%) scale(1);
 }
+
+.achivements {
+  position: relative;
+  top: 40%;
+}
+
+@media screen and (max-width: 992px) {
+  .achivements {
+    top: 0%;
+  }
+}

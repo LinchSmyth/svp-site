@@ -1,10 +1,13 @@
 $(document).ready( function () {  
+  // slick slider
   $('.replies').slick({
     dots: true,
     autoplay: true,
     autoplaySpeed: 5000,
     initialSlide: rand(1, 4)
   });
+  
+  // affix.js
   
   $('.navbar').affix({
     offset: {
@@ -27,6 +30,8 @@ $(document).ready( function () {
       } 
     });
   });
+  
+  // smooth scrolling
   
   $("#myNavbar a").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
@@ -62,7 +67,9 @@ $(document).ready( function () {
       if (callNow) func.apply(context, args);
     };
   };
+  
   const sliderImages = document.querySelectorAll('.slide-in');
+  
   function checkSlide() {
     sliderImages.forEach(sliderImage => {
       // half way through the image
