@@ -26,7 +26,7 @@
     <div class="first-content-wrapper">
       <div class="container">
         <div class="col-md-12">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam iure, quasi veritatis incidunt amet quo placeat est officiis saepe minus, ea similique delectus facere aperiam totam ducimus eveniet nesciunt cumque.</p>
+          
         </div>
       </div>
     </div>
@@ -62,32 +62,32 @@
     <div class="row content-block">
       <div class="col-md-12 content-paddings">
         <h1 class="text-center padding-b">Для кого эта тусовка?</h1>
-        <div class="tusovka-block tusovka-left padding-b">
-          <img src="./src/images/milf.jpg" alt="svp" class="img-circle align-left slide-in">
+        <div class="tusovka-block tusovka-left padding-b slide-in">
+          <img src="./src/images/milf.jpg" alt="svp" class="img-circle">
           <p>Для женщин старше 50-ти лет</p>
         </div>
-        <div class="tusovka-block tusovka-right padding-b">
+        <div class="tusovka-block tusovka-right padding-b slide-in">
           <p>Если у тебя нет ручек</p>
-          <img src="./src/images/pepe.png" alt="svp" class="img-circle align-right slide-in">
+          <img src="./src/images/pepe.png" alt="svp" class="img-circle">
         </div>
-        <div class="tusovka-block tusovka-left padding-b">
-          <img src="./src/images/harold.png" alt="svp" class="img-circle align-left slide-in">
+        <div class="tusovka-block tusovka-left padding-b slide-in">
+          <img src="./src/images/harold.png" alt="svp" class="img-circle">
           <p>Для людей, чей IQ ниже 59-ти</p>
         </div>
-        <div class="tusovka-block tusovka-right padding-b">
+        <div class="tusovka-block tusovka-right padding-b slide-in">
           <p>Для тех, кто тащится от стримов карины в 2к17ом</p>
-          <img src="./src/images/karina.png" alt="svp" class="img-circle align-right slide-in">
+          <img src="./src/images/karina.png" alt="svp" class="img-circle">
         </div>
-        <div class="tusovka-block tusovka-left padding-b">
-          <img src="./src/images/shuriga.png" alt="svp" class="img-circle align-left slide-in">
+        <div class="tusovka-block tusovka-left padding-b slide-in">
+          <img src="./src/images/shuriga.png" alt="svp" class="img-circle">
           <p>Если ты восхишаещься Шурыгиной, и искренне веришь что она гений</p>
         </div>
-        <div class="tusovka-block tusovka-right padding-b">
+        <div class="tusovka-block tusovka-right padding-b slide-in">
           <p>Если твоя мамка выгнала тебя за спайсуху из дома, и тебе негде переночевать</p>
-          <img src="./src/images/spice.jpg" alt="svp" class="img-circle align-right slide-in">
+          <img src="./src/images/spice.jpg" alt="svp" class="img-circle">
         </div>
-        <div class="tusovka-block tusovka-left padding-b">
-          <img src="./src/images/circus.jpg" alt="svp" class="img-circle align-left slide-in">
+        <div class="tusovka-block tusovka-left padding-b slide-in">
+          <img src="./src/images/circus.jpg" alt="svp" class="img-circle">
           <p>Для тех, кто знает что такое "блядский цирк" не по наслышке</p>
         </div>
         <div class="buttons-block text-center">
@@ -248,13 +248,13 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <p class="js-randtext-target"></p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success btn-default" data-dismiss="modal">Японил</button>
+        <button type="button" class="btn btn-danger btn-default" data-dismiss="modal">Янипонил</button>
       </div>
     </div>
   </div>
@@ -264,50 +264,16 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
-      </div>log(isHalfShown + '-' + slideInAt + ":" + sliderImage.offsetTop + "," + isNotScrolledPast + "-" + window.scrollY + ":" + imageBottom)
-      <div class="modal-body">
-        <p>А НИХУЯ ЕБЛО ТУПОЕ КЕК</p>
+      </div>
+      <div class="modal-body text-center">
+        <p style="font-size: 25px;">А НИХУЯ ЕБЛО ТУПОЕ, КЕК</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success btn-default" data-dismiss="modal">Блять, Свеша, заебал</button>
+        <button type="button" class="btn btn-danger btn-default" data-dismiss="modal">Ебало оффни</button>
       </div>
     </div>
   </div>
 </div>
-<script>
-  function debounce(func, wait = 20, immediate = true) {
-    var timeout;
-    return function() {
-      var context = this, args = arguments;
-      var later = function() {
-        timeout = null;
-        if (!immediate) func.apply(context, args);
-      };
-      var callNow = immediate && !timeout;
-      clearTimeout(timeout);
-      timeout = setTimeout(later, wait);
-      if (callNow) func.apply(context, args);
-    };
-  };
-  const sliderImages = document.querySelectorAll('.slide-in');
-  function checkSlide() {
-    sliderImages.forEach(sliderImage => {
-      // half way through the image
-      const slideInAt = (window.scrollY + window.innerHeight) - (sliderImage.height / 2);
-      //bottom of the image
-      const imageBottom = sliderImage.offsetTop + 676 + sliderImage.height;
-      const isHalfShown = slideInAt > (sliderImage.offsetTop + 676);
-      const isNotScrolledPast = window.scrollY < imageBottom;
-      if (isHalfShown && isNotScrolledPast) {
-        sliderImage.classList.add('active');
-      } else {
-        sliderImage.classList.remove('active');
-      }
-    });
-  }
-  window.addEventListener('scroll', debounce(checkSlide, 15));
-</script>
-
 </body>
 </html>
